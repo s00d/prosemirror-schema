@@ -30,7 +30,7 @@
 }
 
 .ProseMirror-selectednode {
-    outline: 2px solid var(--w-200);
+    outline: 2px solid #99CEFF;
 }
 
 /* Make sure li selections wrap around markers */
@@ -45,7 +45,7 @@ li.ProseMirror-selectednode:after {
     right: -2px;
     top: -2px;
     bottom: -2px;
-    border: 2px solid var(--w-200);
+    border: 2px solid #99CEFF;
     pointer-events: none;
 }
 
@@ -85,11 +85,11 @@ li.ProseMirror-selectednode:after {
 
 .ProseMirror-menubar {
     position: relative;
-    min-height: var(--space-two);
-    color: var(--color-heading);
-    padding: var(--space-small) 0;
+    min-height: 2rem;
+    color: #1f2d3d;
+    padding: 0.8rem 0;
     top: 0;
-    left: var(--space-minus-small);
+    left: -0.8rem;
     right: 0;
     background: transparent;
     z-index: 10;
@@ -161,7 +161,7 @@ li.ProseMirror-selectednode:after {
 .ProseMirror-prompt {
     position: fixed;
     z-index: 11;
-    padding: var(--space-normal);
+    padding: 1.6rem;
     background: white;
 }
 
@@ -201,7 +201,7 @@ li.ProseMirror-selectednode:after {
 }
 
 .ProseMirror-prompt-buttons .button--save-link {
-    margin-left: var(--space-smaller);
+    margin-left: 0.4rem;
 }
 
 #editor,
